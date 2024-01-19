@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Tic Tac Toe</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="style.css" rel="stylesheet">
+	</head>
+
+	<body>
+
+		<h1>Tic Tac Toe</h1>
+		<form>
+			<label for="player1">Player 1</label>
+			<input type="text" name="player1" value="">
+
+			<label for="player2">Player 2</label>
+			<input type="text" name="player2" value="">
+
+			<input type="submit" name="play" id="play" value="Play">
+		</form>
+
+		<div class='center'>
+			<button type="submit" hidden='true' class='replay-btn'>Play again</button>
+			<div class='info-div'></div>
+			<div class="grid">
+			</div>
+		</div>
+	
+		<script src='script.js' defer>
+		</script>
+	</body>
+</html>
